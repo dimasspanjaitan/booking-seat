@@ -2,9 +2,9 @@
 	================================================== -->
     <div class="footer fixed-bottom">
         <div class="container">
-            <p class="pull-left">
-                 Powered by <a href="https://www.bataxdev.com">BataxDev</a> - 2021
-            </p>
+            <div class="pull-left">
+                <span>Powered By <b>DIKEYTECH.</b> - </span><span class="current-year"></span>
+            </div>
             <p class="pull-right">
                 GBI Pelita Medan
             </p>

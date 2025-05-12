@@ -42,6 +42,11 @@
 	<script src="{{ asset('assets/js/tether.min.js') }}" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
 	<script src="{{ asset('assets/js/ie10-viewport-bug-workaround.js') }}"></script>
+	<script>
+		$(document).ready(function() {
+			$(".current-year").text((new Date()).getFullYear());
+		});
+	</script>
 
 	<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 	@stack('script')
